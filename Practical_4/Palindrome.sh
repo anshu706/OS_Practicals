@@ -1,0 +1,15 @@
+echo "Enter String:"
+read str
+rev=""
+
+for (( i=${#str}-1; i>=0; i--))
+do
+rev=$rev${str:$i:1}
+done
+
+if [ $str = $rev ]
+then
+echo "Palindrome"
+else
+echo "Not Palindrome"
+fi

@@ -1,0 +1,15 @@
+Step - 1] --> nano Sum.sh
+
+----------------------------------------
+echo "Enter no. 1:"
+read n1
+echo "Enter no. 2:"
+read n2
+
+sum=$((n1+n2))
+
+echo "Sum = $sum"
+----------------------------------------
+
+Run] --> ./Sum.sh
+

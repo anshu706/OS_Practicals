@@ -1,0 +1,16 @@
+Step-1] --> fibo.sh
+
+-----------------------------------------------
+fib1=0
+fib2=1
+for((i=2;i<n;i++))
+do
+fib=$((fib1+fib2))
+echo="$fib"
+fib1=$fib2
+fib2=$fib
+done
+echo "Fibonacci: $fib"
+-----------------------------------------------
+
+Run] --> ./fibo.sh

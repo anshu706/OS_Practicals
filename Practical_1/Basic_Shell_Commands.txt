@@ -1,0 +1,28 @@
+ Command | Purpose
+
+ pwd     | Show current directory
+ ls      | List files and directories
+ cd      | Change directory
+ mkdir   | Create directory
+ rm      | Remove files/directories
+ cp      | Copy files
+ mv      | Move/rename files
+ cat     | Display file content
+ grep    | Search text patterns
+ chmod   | Change file permissions
+ ps      | Show running processes
+ top     | Monitor system processes
+ df      | Disk usage
+ date    | Show system date & time
+ ls -l   | Details
+ ls -a   | Hidden Files
+ cd ..   | One Step Back
+ cd ~    | Home Directory
+ cd /    | Start(root)
+
+
+ touch(filename).txl          -> Creating a new File
+ Cat(filename).txl            -> Shows Content Of the File
+ echo "____">(filename).txl   -> Adds one line sentence
+ rm                           -> remove file
+ rm -r                        -> remove folder

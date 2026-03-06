@@ -1,0 +1,19 @@
+if [ $# -ne 3 ]
+then
+    echo "Enter 3 numbers"
+    exit 1
+fi
+
+a=$1
+b=$2
+c=$3
+
+if [ "$a" -ge "$b" ] && [ "$a" -ge "$c" ]
+then
+    echo "$a is greatest"
+elif [ "$b" -ge "$a" ] && [ "$b" -ge "$c" ]
+then
+    echo "$b is greatest"
+else
+    echo "$c is greatest"
+fi
